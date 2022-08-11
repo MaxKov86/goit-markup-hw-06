@@ -813,6 +813,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #000000;
+}
+
+.modal-hero-close:hover .icon-hero-close,
+.modal-hero-close:focus .icon-hero-close {
+  fill: var(--accent-color);
 }
 
 .is-hidden {
