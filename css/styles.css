@@ -979,6 +979,10 @@ body {
   fill: var(--icon-hover-color);
 }
 
+.form-policy-check:focus + .form-policy-text .check {
+  border-color: var(--accent-color);
+}
+
 .policy-link {
   margin-left: 4px;
   color: var(--accent-color);
