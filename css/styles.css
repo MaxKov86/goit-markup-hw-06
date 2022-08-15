@@ -497,8 +497,8 @@ body {
   color: #2196f3;
 }
 
-.footer-address {
-  width: 231px;
+.footer-part {
+  flex-grow: 1;
 }
 
 .footer-address-text {
